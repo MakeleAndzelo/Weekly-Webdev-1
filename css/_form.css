@@ -19,12 +19,10 @@
 
 .form-control.with-icon input[type="text"], input[type="password"], input[type="email"] {
     padding: 10px 0 10px 60px;
-    color: grey;
 }
 
 .form-control.with-icon select {
     padding: 4px 0 4px 60px;
-    color: grey;
 }
 
 .input-icon {
@@ -33,9 +31,9 @@
     margin-top: 10%;
     position: absolute;
     height: 80%;
-    border-right: 1px solid grey;
+    border-right: 1px solid var(--grey);
 }
 
 .input-icon i {
-    color: grey;
+    color: var(--grey);
 }
