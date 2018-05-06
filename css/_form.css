@@ -1,0 +1,11 @@
+.form {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+}
+
+.form-control {
+    display: grid;
+    grid-template-columns: 1fr;
+}

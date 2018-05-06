@@ -1,0 +1,11 @@
+.panel {
+    background: rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.panel-content {
+    background: var(--white);
+    border-radius: 3px;
+    padding: 15px;
+}
