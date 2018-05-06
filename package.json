@@ -1,0 +1,13 @@
+{
+  "name": "webdev-challenge-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michał Piotrowski <97.piotrowski.michal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --port 7777 --browser 'firefox'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
