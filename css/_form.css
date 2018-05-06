@@ -9,3 +9,33 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+.form-checkbox {
+}
+
+.form-control.with-icon {
+    position: relative;
+}
+
+.form-control.with-icon input[type="text"], input[type="password"], input[type="email"] {
+    padding: 10px 0 10px 60px;
+    color: grey;
+}
+
+.form-control.with-icon select {
+    padding: 4px 0 4px 60px;
+    color: grey;
+}
+
+.input-icon {
+    width: 50px;
+    padding: 15% 10px;
+    margin-top: 10%;
+    position: absolute;
+    height: 80%;
+    border-right: 1px solid grey;
+}
+
+.input-icon i {
+    color: grey;
+}

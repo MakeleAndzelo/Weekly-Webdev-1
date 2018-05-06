@@ -9,6 +9,7 @@
     <title>Webdev Challenge #1</title>
 
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -23,14 +24,41 @@
                 <div class="panel">
                     <div class="panel-content">
                         <form class="form">
-                            <div class="form-control">
+                            <div class="form-control with-icon">
                                 <input type="text" placeholder="Username">
+                                <span class="input-icon">
+                                    <i class="fa fa-lg fa-lw fa-user"></i>
+                                </span>
                             </div>
-                            <div class="form-control">
-                                <input type="text" placeholder="Password" type="password">
+                            <div class="form-control with-icon">
+                                <input type="text" placeholder="Password">
+                                <span class="input-icon">
+                                    <i class="fa fa-lg fa-lw fa-lock"></i>
+                                </span>
                             </div>
-                            <div class="form-control">
+                            <div class="form-control with-icon">
                                 <input type="text" placeholder="Confirm Password">
+                                <span class="input-icon">
+                                    <i class="fa fa-lg fa-lw fa-lock"></i>
+                                </span>
+                            </div>
+                            <div class="form-control with-icon">
+                                <input type="email" placeholder="Email">
+                                <span class="input-icon">
+                                    <i class="fa fa-lg fa-lw fa-envelope"></i>
+                                </span>
+                            </div>
+                            <div class="form-control with-icon">
+                                <select>
+                                    <option value="" disabled selected>Your location</option>
+                                </select>
+                                <span class="input-icon">
+                                    <i class="fa fa-lg fa-lw fa-map"></i>
+                                </span>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agreements">
+                                <label for="agreements">I have read and accept the terms of use</label>
                             </div>
                         </form>
                     </div>

@@ -1,25 +1,8 @@
+@import "_global.css";
 @import "_variables.css";
 @import "_panel.css";
 @import "_form.css";
 
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    font-family: 'Titillium Web', sans-serif;
-    background: url("../images/Background.png") no-repeat center top;
-    background-size: cover;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--white);
-    font-weight: 400;
-}
 
 .container {
     width: 80%;
