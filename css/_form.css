@@ -32,6 +32,7 @@
     display: inline-block;
     margin-right: 15px;
     position: relative;
+    cursor: pointer;
 }
 
 .form-checkbox input:checked + label span:before {
@@ -67,8 +68,8 @@
 
 .input-icon {
     width: 50px;
-    padding: 15% 10px;
-    margin-top: 10%;
+    padding: 7px 10px;
+    margin-top: 5px;
     position: absolute;
     height: 80%;
     border-right: 1px solid var(--grey);
