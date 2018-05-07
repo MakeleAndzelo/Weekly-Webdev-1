@@ -10,7 +10,12 @@
     grid-template-columns: 1fr;
 }
 
-.form-checkbox {
+.form-control textarea {
+    padding: 10px;
+    color: grey;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 240px;
 }
 
 .form-control.with-icon {

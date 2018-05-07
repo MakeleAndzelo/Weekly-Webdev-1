@@ -41,3 +41,9 @@
     border: 1px solid var(--dark-red);
     background: linear-gradient(var(--light-red), var(--dark-red));
 }
+
+.btn-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
