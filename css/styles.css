@@ -32,6 +32,7 @@
     color: white;
     border-radius: 4px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 
 .btn.btn-success {
@@ -40,7 +41,9 @@
 }
 
 .btn.btn-success:disabled {
-    background: #a2202a;
+    background: linear-gradient(var(--light-green-disabled), var(--dark-green-disabled));
+    border: #7c9e68;
+    cursor: auto;
 }
 
 .btn.btn-error {
