@@ -1,7 +1,7 @@
-@import "/css/global.css";
-@import "/css/variables.css";
-@import "/css/panel.css";
-@import "/css/form.css";
+@import "./global.css";
+@import "./variables.css";
+@import "./panel.css";
+@import "./form.css";
 
 
 .container {
